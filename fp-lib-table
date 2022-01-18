@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "digikey-footprints")(type "KiCad")(uri "${KICAD6_3RD_PARTY}/resources/digikey-kicad-library/digikey-footprints.pretty")(options "")(descr ""))
+  (lib (name "Connector")(type "KiCad")(uri "${KICAD6_USER_FOOTPRINTS_DIR}/Connector.pretty")(options "")(descr ""))
+)
