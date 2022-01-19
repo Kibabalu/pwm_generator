@@ -1,6 +1,5 @@
 # pwm_generator
 
-PWM power output generator
+KiCad project: PWM power output generator
 
- ![schematic](pwm_generator.png)
- 
+![schematic](pwm_generator.png)
