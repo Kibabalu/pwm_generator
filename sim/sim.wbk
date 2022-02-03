@@ -1,0 +1,16 @@
+1
+9
+.tran 1u 1m{return}{return}
+4
+1
+UDS
+V
+1
+UGS
+V
+1
+UPWM
+V
+1
+UTRI
+V

@@ -1,0 +1,4 @@
+1
+9
+.tran 1e-9 10e-3{return}{return}
+0
