@@ -77,7 +77,7 @@
       (place Q2 94444.000000 -129210.000000 front 0.000000 (PN BC807))
     )
     (component Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder::2
-      (place C1 82502.000000 -104572.000000 front -90.000000 (PN 10u))
+      (place C1 82502.000000 -104572.000000 front -90.000000 (PN 33u))
     )
     (component TestPoint:TestPoint_Pad_1.5x1.5mm::1
       (place TP3 100282.000000 -124384.000000 front 0.000000 (PN TestPoint))
@@ -104,7 +104,7 @@
       (place R7 93424.000000 -120320.000000 front -90.000000 (PN 2k2))
     )
     (component Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder::4
-      (place C10 106378.000000 -114986.000000 front 0.000000 (PN 10n))
+      (place C11 106378.000000 -114986.000000 front 0.000000 (PN 10n))
     )
     (component Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder::5
       (place C3 93424.000000 -104572.000000 front -90.000000 (PN 10n))
@@ -134,7 +134,7 @@
       (place C2 87836.000000 -104572.000000 front -90.000000 (PN 1u))
     )
     (component Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder::7
-      (place C11 93678.000000 -114732.000000 front 180.000000 (PN 15p))
+      (place C12 93678.000000 -114732.000000 front 180.000000 (PN 15p))
     )
     (component "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
       (place Q3 108410.000000 -134290.000000 front 0.000000 (PN "BUK7880-55A"))
@@ -148,9 +148,6 @@
     (component TestPoint:TestPoint_Pad_1.5x1.5mm::3
       (place TP4 90630.000000 -108890.000000 front 0.000000 (PN TestPoint))
     )
-    (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm::1"
-      (place U2 100066.500000 -117526.000000 front 0.000000 (PN LM393))
-    )
     (component Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder::6
       (place R5 122888.000000 -126289.000000 front 0.000000 (PN 68k))
     )
@@ -161,7 +158,10 @@
       (place D1 99012.000000 -86538.000000 front 180.000000 (PN 1N5820))
     )
     (component Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder::9
-      (place C9 102606.500000 -112192.000000 front 90.000000 (PN 1u))
+      (place C10 102606.500000 -112192.000000 front 90.000000 (PN 1u))
+    )
+    (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm::1"
+      (place U2 100045.000000 -117500.000000 front 0.000000 (PN LM393))
     )
     (component TestPoint:TestPoint_Pad_1.5x1.5mm::4
       (place TP5 89360.000000 -129972.000000 front 90.000000 (PN TestPoint))
@@ -838,29 +838,6 @@
       (outline (path signal 50  -1250 1250  -1250 -1250))
       (pin Rect[T]Pad_1500x1500_um 1 0 0)
     )
-    (image "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm::1"
-      (outline (path signal 120  0 2560  -3450 2560))
-      (outline (path signal 120  0 2560  1950 2560))
-      (outline (path signal 120  0 -2560  1950 -2560))
-      (outline (path signal 120  0 -2560  -1950 -2560))
-      (outline (path signal 50  -3700 -2700  3700 -2700))
-      (outline (path signal 50  -3700 2700  -3700 -2700))
-      (outline (path signal 50  3700 2700  -3700 2700))
-      (outline (path signal 50  3700 -2700  3700 2700))
-      (outline (path signal 100  -1950 -2450  -1950 1475))
-      (outline (path signal 100  -975 2450  1950 2450))
-      (outline (path signal 100  -1950 1475  -975 2450))
-      (outline (path signal 100  1950 2450  1950 -2450))
-      (outline (path signal 100  1950 -2450  -1950 -2450))
-      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 1 -2475 1905)
-      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 2 -2475 635)
-      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 3 -2475 -635)
-      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 4 -2475 -1905)
-      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 5 2475 -1905)
-      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 6 2475 -635)
-      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 7 2475 635)
-      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 8 2475 1905)
-    )
     (image Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder::6
       (outline (path signal 120  -727.064 910  727.064 910))
       (outline (path signal 120  -727.064 -910  727.064 -910))
@@ -928,6 +905,29 @@
       (outline (path signal 100  1600 -800  -1600 -800))
       (pin RoundRect[T]Pad_1325x1800_250.951_um_0.000000_0 1 -1562.5 0)
       (pin RoundRect[T]Pad_1325x1800_250.951_um_0.000000_0 2 1562.5 0)
+    )
+    (image "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm::1"
+      (outline (path signal 120  0 2560  -3450 2560))
+      (outline (path signal 120  0 -2560  -1950 -2560))
+      (outline (path signal 120  0 -2560  1950 -2560))
+      (outline (path signal 120  0 2560  1950 2560))
+      (outline (path signal 50  -3700 -2700  3700 -2700))
+      (outline (path signal 50  3700 -2700  3700 2700))
+      (outline (path signal 50  3700 2700  -3700 2700))
+      (outline (path signal 50  -3700 2700  -3700 -2700))
+      (outline (path signal 100  -1950 -2450  -1950 1475))
+      (outline (path signal 100  -975 2450  1950 2450))
+      (outline (path signal 100  1950 2450  1950 -2450))
+      (outline (path signal 100  -1950 1475  -975 2450))
+      (outline (path signal 100  1950 -2450  -1950 -2450))
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 1 -2475 1905)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 2 -2475 635)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 3 -2475 -635)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 4 -2475 -1905)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 5 2475 -1905)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 6 2475 -635)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 7 2475 635)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 8 2475 1905)
     )
     (image TestPoint:TestPoint_Pad_1.5x1.5mm::4
       (outline (path signal 120  950 -950  -950 -950))
@@ -1037,21 +1037,21 @@
       (pins Q2-2 R8-1 Q1-2 Q3-1 TP5-1)
     )
     (net "/U_{PWM}"
-      (pins R6-2 R7-1 C11-1 TP4-1 U2-1)
+      (pins R6-2 R7-1 C12-1 TP4-1 U2-1)
     )
     (net "/U_{Triangle}"
-      (pins C6-2 TP3-1 U1-7 U2-3 R5-2)
+      (pins C6-2 TP3-1 U1-7 R5-2 U2-3)
     )
     (net VCC
-      (pins R6-1 C7-1 TP2-1 C4-1 C8-1 Q1-3 J3-1 C10-1 D2-1 R1-1 RV1-1 U1-8 C5-1 U2-8
-        D1-1 C9-1)
+      (pins R6-1 C7-1 TP2-1 C4-1 C8-1 Q1-3 J3-1 C11-1 D2-1 R1-1 RV1-1 U1-8 C5-1 D1-1
+        C10-1 U2-8)
     )
     (net "Net-(R3-Pad1)"
       (pins U1-3 TP1-1 R5-1 R3-1)
     )
     (net GND
-      (pins R2-2 C7-2 Q2-3 C1-2 C4-2 R8-2 C8-2 C10-2 C3-2 J2-1 D2-2 RV1-3 U1-4 C2-2
-        C11-2 Q3-3 C5-2 U2-4 U2-5 U2-6 C9-2)
+      (pins R2-2 C7-2 Q2-3 C1-2 C4-2 R8-2 C8-2 C11-2 C3-2 J2-1 D2-2 RV1-3 U1-4 C2-2
+        C12-2 Q3-3 C5-2 C10-2 U2-4 U2-5 U2-6)
     )
     (net "Net-(Q1-Pad1)"
       (pins Q2-1 Q1-1 R7-2)
@@ -1071,11 +1071,11 @@
     (net "/U_{Pot}"
       (pins RV1-2 U2-2)
     )
-    (net "unconnected-(U2-Pad7)"
-      (pins U2-7)
-    )
     (net "/U_{In}"
       (pins J1-1 D1-2)
+    )
+    (net "unconnected-(U2-Pad7)"
+      (pins U2-7)
     )
     (class kicad_default
       (circuit

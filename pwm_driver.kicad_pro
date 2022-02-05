@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -373,6 +379,29 @@
         "via_diameter": 0.6858,
         "via_drill": 0.3302,
         "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.254,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 254.0,
+        "microvia_drill": 127.0,
+        "name": "Power",
+        "nets": [
+          "/FET_Drain",
+          "/U_{In}",
+          "GND",
+          "VCC"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "via_diameter": 0.6858,
+        "via_drill": 0.3302,
+        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -385,7 +414,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "pwm_driver.net",
-      "specctra_dsn": "pwm_driver.dsn",
+      "specctra_dsn": "../../../../pwm_driver.dsn",
       "step": "",
       "vrml": ""
     },
