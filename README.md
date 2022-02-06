@@ -10,8 +10,6 @@ Most of PWM generator designs are based on 555 ICs. But I haven't found a circui
 
 ![Enclosure](1593K.png)
 
-![Assembly](pwm_driver-Assembly.png)
-
 ![PCB](pwm_driver.png)
 
 ![Photo](IMG_0087.jpeg)
