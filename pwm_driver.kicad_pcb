@@ -8,9 +8,9 @@
   (title_block
     (title "PWM power output generator")
     (date "2022-01-17")
-    (rev "1")
-    (company "Ashton Johnson")
-    (comment 4 "AISLER Project ID: XHBIYVLB")
+    (rev "1.2")
+    (company "Ct Cherrytree")
+    (comment 1 "Frank Kirschbaum")
   )
 
   (layers
@@ -1175,9 +1175,9 @@
     (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp 6182facb-9838-4626-8330-5d06c1a16807))
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp 9a2c90c4-d108-490c-a4ef-f90839b42fec))
     (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp 9ba4c7ff-e95d-44f3-9130-7648a30c506e))
-    (pad "1" smd roundrect (at -1.5625 0 180) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188679)
+    (pad "1" smd roundrect (at -1.5625 0 180) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1886792453)
       (net 12 "/U_{Pot}") (pintype "passive") (tstamp 5662e5d6-bc2a-4462-87fe-107c6d9ab49d))
-    (pad "2" smd roundrect (at 1.5625 0 180) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188679)
+    (pad "2" smd roundrect (at 1.5625 0 180) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1886792453)
       (net 6 "GND") (pintype "passive") (tstamp a83fc53b-f2e4-4a01-9c00-7538b050eb9c))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
