@@ -10,7 +10,7 @@ Most of PWM generator designs are based on a 555 IC. But I haven't found one tha
 
 ![Enclosure](1593K.png)
 
-![Assembly](pwm_driver-Assembly.pdf)
+![Assembly](pwm_driver-Assembly.png)
 
 ![PCB](pwm_driver.png)
 
