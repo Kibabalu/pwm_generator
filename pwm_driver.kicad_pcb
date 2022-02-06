@@ -1607,6 +1607,11 @@
       (net 6 "GND") (pintype "passive") (tstamp 3aacc8dc-feae-4d9f-b77f-819542ab3b32))
     (pad "4" smd rect locked (at 3.2 0) (size 1.6 3.3) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 11 "/FET_Drain") (pintype "passive") (tstamp c7bfb389-ee13-476d-a6eb-502e10154a3e))
+    (model "${KICAD6_USER_3DMODEL_DIR}/TSM900N06CW_RPG.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
