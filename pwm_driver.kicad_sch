@@ -8,6 +8,7 @@
     (title "PWM power output generator")
     (date "2022-01-15")
     (rev "1.2")
+    (company "Ct Cherrytree")
     (comment 1 "Frank Kirschbaum")
     (comment 4 "PWM power output generator")
   )
@@ -1149,7 +1150,6 @@
       )
     )
   )
-
 
   (junction (at 63.5 115.57) (diameter 0) (color 0 0 0 0)
     (uuid 06f135b0-5a72-42f6-8eb8-4a2e09ed4110)
